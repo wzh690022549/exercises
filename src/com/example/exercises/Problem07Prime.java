@@ -15,6 +15,7 @@ public class Problem07Prime {
                 }
             }
         }
+        System.out.println("500以内所以素数：");
         System.out.println(primeList);
     }
 }

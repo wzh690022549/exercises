@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Problem03Triangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("输入三条边长：");
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();

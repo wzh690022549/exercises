@@ -10,6 +10,7 @@ public class Problem05AmountInWords {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("输入一个9位以内整数：");
         int num = scanner.nextInt();
         int[] numList = toList(num);
         String amountInWords = "";

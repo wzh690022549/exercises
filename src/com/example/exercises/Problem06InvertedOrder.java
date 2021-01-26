@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Problem06InvertedOrder {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("输入一个整数：");
         int num = scanner.nextInt();
         // 倒序转换成ArrayList
         ArrayList<Integer> numList = new ArrayList<>();

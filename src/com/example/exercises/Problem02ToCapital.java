@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Problem02ToCapital {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("输入一个小写字母：");
         char c = scanner.nextLine().charAt(0);
         if (c >= 'a' && c <= 'z') {
             System.out.println((char) (c + ('A' - 'a')));
